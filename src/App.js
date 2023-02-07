@@ -11,8 +11,9 @@ function App() {
     <>
       <NavComponent />
       <MainComponent
-        img="https://images.alphacoders.com/102/thumb-1920-1026345.jpg"
-        height="250px"
+        img="https://blog.eliflab.com/wp-content/uploads/2022/07/library2.jpg"
+        height="350px"
+        books="Books"
       />
       <CardComponent />
       <TableComponent />

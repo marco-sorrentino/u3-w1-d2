@@ -14,12 +14,11 @@ class MainComponent extends Component {
               <Card.Img
                 variant="top"
                 src={this.props.img}
-                style={{ height: this.props.height }}
+                style={{ height: this.props.height, objectFit: "cover" }}
               />
               <Card.Body>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  <h1 className="text-center">{this.props.books}</h1>
                 </Card.Text>
               </Card.Body>
             </Card>
