@@ -6,7 +6,7 @@ import scifi from "../data/scifi.json";
 class TableComponent extends Component {
   render() {
     return (
-      <Container>
+      <Container className="mt-5">
         <Table striped bordered hover variant="dark">
           <thead>
             <tr>
